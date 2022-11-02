@@ -4,8 +4,8 @@ A Game simple game implemented with OpenGL newest version, which simulate an "ov
 
 Contents:
 - [x] Video of our Demo [(here)](https://youtu.be/B3KCT0iciRw)
-- [x] Full source code [(here)](../main/Lab1LinteRobert/proiectGrafica.cpp)
-- [x] Full documentation [(here)](../main/Documentation.pdf)
+- [x] Full source code [(here)](Lab1LinteRobert/proiectGrafica.cpp)
+- [x] Full documentation [(here)](Documentation.pdf)
 
 ## The purpose of this project
 Deepening knowledge in OpenGL by:
