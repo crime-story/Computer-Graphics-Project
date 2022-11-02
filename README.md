@@ -14,10 +14,14 @@ Deepening knowledge in OpenGL by:
 - Folosirea culorilor
 
 ## Game board before translations:
-![image](https://user-images.githubusercontent.com/73616883/199439867-1adb22e8-4df2-4f06-b803-42436d0732ac.png)
+<img src="[Picture.svg](https://user-images.githubusercontent.com/73616883/199441727-b7279edf-c1ad-4211-9fad-ec195faeeac5.png)" 
+        alt="Picture" 
+        width="600" 
+        height="600" 
+        style="display: block; margin: 0 auto" />
 
 ## Game board during translations:
-![image](https://user-images.githubusercontent.com/73616883/199438456-c2ee53e1-1098-4831-9bae-213507179d4b.png)
+![image](https://user-images.githubusercontent.com/73616883/199442184-db5389e0-9f0a-4d9c-9321-0ca01a1d8572.png)
 
 ## Game board after blue wins the race:
-![image](https://user-images.githubusercontent.com/73616883/199438665-3ea18500-5053-45c1-abb2-94a950114e94.png)
+![image](https://user-images.githubusercontent.com/73616883/199442356-0bf1d575-7a82-43e4-8c63-d8665f78506c.png)
