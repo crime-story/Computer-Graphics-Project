@@ -1,4 +1,4 @@
-# Graphics Project 1
+# Computer Graphics Project 1
 
 A Game simple game implemented with OpenGL newest version, which simulate an "overtaking": a rectangle moves uniformly (through translation), another rectangle comes from behind (also through translations), at a given moment it overtakes, then passes in front of the first one. At the end, the winner of the race is displayed through a translation.
 
