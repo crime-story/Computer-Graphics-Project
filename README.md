@@ -9,6 +9,6 @@ Contents:
 
 ## The purpose of this project
 Deepening knowledge in OpenGL by:
-- The use of translations
+- Using translations
 - Drawing objects
-- Use of colors
+- Using colors
