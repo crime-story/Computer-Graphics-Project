@@ -1,4 +1,4 @@
-/* DESCRIERE: DREPTUNGHI CU SATELIT -- varianta cu OpenGL "nou"
+﻿/* DESCRIERE: DEPASIRE INTRE DREPTUNGHIURI -- varianta cu OpenGL "nou"
 	- utilizeaza diverse transformari si compunerea acestora folosind biblioteca glm
 	- functii pentru utilizarea mouse-ului
 */
@@ -693,8 +693,8 @@ int main(int argc, char* argv[])
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowPosition(100, 100);
-	glutInitWindowSize(1000, 1000);
-	glutCreateWindow("Dreptunghi cu satelit - OpenGL <<nou>>");
+	glutInitWindowSize(1000, 700);
+	glutCreateWindow("Proiect 1 - Depasire intre 2 dreptunghiuri");
 	glewInit();
 	Initialize();
 	glutDisplayFunc(RenderFunction);
