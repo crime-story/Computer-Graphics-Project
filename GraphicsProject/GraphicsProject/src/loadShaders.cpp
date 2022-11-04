@@ -34,7 +34,7 @@ void checkCompileErrors(unsigned int shader, std::string type)
 }
 
 
-GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path)
+GLuint LoadShaders(const char* vertex_file_path, const char* fragment_file_path)
 {
     GLuint ID;
 
@@ -44,9 +44,9 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
     std::ifstream vShaderFile;
     std::ifstream fShaderFile;
     // ensure ifstream objects can throw exceptions:
-    vShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
-    fShaderFile.exceptions (std::ifstream::failbit | std::ifstream::badbit);
-    try 
+    vShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    try
     {
         // open files
         vShaderFile.open(vertex_file_path);
@@ -59,7 +59,7 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
         vShaderFile.close();
         fShaderFile.close();
         // convert stream into string
-        vertexCode   = vShaderStream.str();
+        vertexCode = vShaderStream.str();
         fragmentCode = fShaderStream.str();
     }
     catch (std::ifstream::failure& e)
@@ -67,7 +67,7 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
         std::cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ: " << e.what() << std::endl;
     }
     const char* vShaderCode = vertexCode.c_str();
-    const char * fShaderCode = fragmentCode.c_str();
+    const char* fShaderCode = fragmentCode.c_str();
     // 2. compile shaders
     unsigned int vertex, fragment;
     // vertex shader
