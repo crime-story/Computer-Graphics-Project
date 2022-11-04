@@ -719,7 +719,7 @@ void RenderFunction(void)
 	// Transmitere variabile uniforme
 	glUniformMatrix4fv(myMatrixLocation, 1, GL_FALSE, &myMatrix[0][0]);
 	glUniform1i(codColLocation, codCol);
-
+	
 	glDrawArrays(GL_POLYGON, 0, 4);
 	glDrawArrays(GL_POLYGON, 4, 4);
 	glDrawArrays(GL_POLYGON, 8, 4);
