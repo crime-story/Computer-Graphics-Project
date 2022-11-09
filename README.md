@@ -5,6 +5,7 @@ A Game simple game implemented with OpenGL newest version, which simulate an "ov
 Contents:
 - [x] Video with our Demo [(here)](https://youtu.be/itgOAlJtbVY)
 - [x] Full source code [(here)](GraphicsProject/GraphicsProject/proiectGrafica.cpp)
+- [x] Shader code [(here)](GraphicsProject/GraphicsProject/03_02_Shader.frag)
 - [x] Full documentation [(here)](Documentation.pdf)
 
 ## The purpose of this project
